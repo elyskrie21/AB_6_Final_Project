@@ -1,0 +1,39 @@
+# Node modules (huge, don't push them)
+node_modules/
+
+# Environment variables (secrets like DB passwords, API keys)
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# Editor settings (optional)
+.vscode/
+.idea/
+
+# Build files (if you build TypeScript or bundle anything)
+dist/
+build/
+
+# Coverage reports (if you use testing frameworks)
+coverage/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Optional: ignore database files (if you use SQLite etc.)
+*.sqlite
+*.sqlite3
+
+# Optional: ignore Docker stuff
+docker-compose.override.yml
